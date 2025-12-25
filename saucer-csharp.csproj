@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+    <!-- Package Info -->
+    <PackageId>Saucer.Bindings</PackageId>
+    <Title>Saucer C# Bindings</Title>
+    <Version>1.0.0</Version>
+    <Authors>Arjun Gaonkar</Authors>
+    <Description>Production-ready C# bindings for the Saucer webview framework with complete P/Invoke interop and idiomatic .NET API</Description>
+    <PackageProjectUrl>https://github.com/arjungaonkar/saucer-csharp</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/arjungaonkar/saucer-csharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>saucer;webview;cross-platform;interop;bindings;csharp</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Saucer.Tests" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.so
+*.dylib
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+packages/
+.nuget/
